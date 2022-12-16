@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body bgcolor="#EAF6F6">
+    <h1>Contact Information</h1>
+    <p><h3>Name : Rishu Pranjal<br>
+    Email: rishupranjal@xyz.com<br>
+    Phone No.: +91-XXXXXXXXXX</h3></p>
+    <form action="mailto:@rishu.pranjal19@stu.srmuniversity.ac.in" method = "post" enctype="text/plain">
+         <label>Your Name:-</label><br><br>
+          <input type="text" name = "Your Name"><br><br>
+        <label>Email-id:-</label><br><br>
+            <input type ="email" name = "Email-id"><br><br>
+        <label>Please Write your message below and attach relevant files(if any):-</label><br><br>
+            <textarea name="Please Write your message below and attach relevant files(if any)" name="message" rows="15" cols="50">
+            </textarea><br>
+          <input type="file" name ="value"><br><br>
+         <label>Please Specify the Date</label><br>
+         <input type ="date"><br><br>
+         <legend>What is the purpose of this message?</legend>
+             <label><input type="radio" name="radio" value="Feedback" /> Feedback</label>
+             <label><input type="radio" name="radio" value="Query" /> Query</label>
+             <label><input type="radio" name="radio" value="Complaint" /> Complaint</label>
+             <br><br>
+         <label>Do you Like the basic website I made?</label>
+         <input type ="range">
+          <p>Ps. The right most value in this toggle bar means highly recommended and vice-versa</p>
+        <input type="submit" value="Submit">
+    </form>
+</body> 
+</html>
